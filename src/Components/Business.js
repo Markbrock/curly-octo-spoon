@@ -13,7 +13,7 @@ export default function Business() {
           </div></Grid>
 
           <Grid item xs={12} md={6}><div className='Diagram'>
-        <img width={'400px'} alt='' height={'800px'} src={ServerLess}></img> 
+        <img width={'300px'} alt='' height={'600px'} src={ServerLess}></img> 
         </div></Grid>
         
         
