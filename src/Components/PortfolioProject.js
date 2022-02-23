@@ -13,7 +13,7 @@ export default function PortfolioProject(props) {
     
 </Grid>
 
-<Grid className='center'  item xs={12} md={6} >
+<Grid className='center'  item xs={12} md={4} >
     <img className='SiteMap' alt='' src={props.siteMap} 
     />
 </Grid>
