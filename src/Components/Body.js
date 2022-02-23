@@ -7,7 +7,7 @@ import Portfolio from './Portfolio';
 
 export default function Body() {
   return (
-     
+      
   <div className='mainbody'>
     <About/>
     <Business/>
