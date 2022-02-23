@@ -6,11 +6,12 @@ h2 {
   font-size: 20px;
 }
 .headerName{
+  
+  font-size: 40px;
   display: flex;
-  margin: -20px;
 }
 .occupation{
-  font-size: 20px;
+  font-size: 15px;
   padding-left: 10px;
   padding-top: 20px;
 }
@@ -33,7 +34,8 @@ p{
   font-size: 20px;
 }
 .mainbody {
-  margin: 5%;
+  margin: 30px;
+  margin-top: 0px;
 }
 .Text {
   color: white;
@@ -56,9 +58,10 @@ p{
 .ProjectInfo{  
 }
 .SiteMap{
+  
   margin: 10px;
-  width: auto;
-  height: 40vh;
+  width: 90%;
+  height: auto;
   border-radius: 10px;
 }
 .center {

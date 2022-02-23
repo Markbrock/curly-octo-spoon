@@ -75,7 +75,7 @@ import {
       return (
         <Toolbar className={toolbar}>
           <div>
-          <h1 className="center">{ResumeName}</h1></div>
+          {ResumeName}</div>
           {/* <div>{getMenuButtons()}</div> */}
         </Toolbar>
       );
@@ -85,8 +85,7 @@ import {
    
   
       return (
-        <Toolbar className={toolbar}>
-            <h1 className="center">{ResumeName}</h1>
+        <Toolbar className={toolbar}>{ResumeName}
              {/* <div className={menuicon}>
          <IconButton
             {...{
@@ -119,7 +118,7 @@ import {
 
     const ResumeName = (
       <div className="headerName">
-       Mark Brock <div className="occupation">Cloud Developer</div>
+        Mark Brock <div className="occupation">Full-Stack Developer</div>
       </div>
     );
   
