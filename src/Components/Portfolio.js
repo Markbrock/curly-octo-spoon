@@ -23,7 +23,7 @@ export default function Portfolio() {
       const getProjects = () => {
         return  ProjectData.map(({ ProjectName,About,href,siteMap }) => {
           return (
-            <Grid item xs={12} md={6}>
+            <Grid  item xs={12} md={12}>
             <PortfolioProject
               
               ProjectName={ProjectName}

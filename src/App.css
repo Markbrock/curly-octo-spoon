@@ -53,16 +53,21 @@ p{
 .CertificateLink{
   font-size: 30px;
 }
+.ProjectInfo{  
+}
 .SiteMap{
-  margin-top: 10px;
+  margin: 10px;
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
 }
 .center {
   width: 100%;
   text-align: center;
 }
 .ProjectCard{
-  height: auto;
   color: white;
+  border-radius: 10px;
   background-color: black;
   
 }

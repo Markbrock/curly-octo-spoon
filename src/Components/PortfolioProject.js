@@ -1,25 +1,23 @@
 import React from 'react';
-import { Card, CardContent } from '@material-ui/core';
 
+import {Grid} from '@material-ui/core'
 
 export default function PortfolioProject(props) {
-  return (<div>
+  return (<Grid container spacing={2} justifyContent="space-around" className="ProjectCard">
 
-<Card className="ProjectCard" >
-    <CardContent className="ProjectCard">
+<Grid  item xs={12} md={6} >
+    
     <h1><a href={props.href}>{props.ProjectName}</a></h1>
     <p>{props.About}</p>
-    <div className='center'><a href={props.href}><h2>{props.href}</h2></a></div>
     
-    </CardContent>
-</Card>
+    
+</Grid>
 
-<div className='center'>
+<Grid className='center'  item xs={12} md={6} >
     <img className='SiteMap' alt='' src={props.siteMap} 
-    width="80%"
-    height="auto"/>
-    </div>
+    />
+</Grid>
 
       
-  </div>);
+  </Grid>);
 }
