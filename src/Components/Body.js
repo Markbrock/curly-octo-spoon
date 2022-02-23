@@ -1,5 +1,4 @@
 import React from 'react';
-import Grid from '@mui/material/Grid';
 import About from './About';
 import Business from './Business';
 import Skills from './Skills';

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardActions, CardContent } from '@material-ui/core';
+import { Card, CardContent } from '@material-ui/core';
 
 
 export default function PortfolioProject(props) {
@@ -15,7 +15,7 @@ export default function PortfolioProject(props) {
 </Card>
 
 <div>
-    <img className='SiteMap' src={props.siteMap} 
+    <img className='SiteMap' alt='' src={props.siteMap} 
     width="100%"
     height="300px"/>
     </div>
