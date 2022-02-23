@@ -57,8 +57,8 @@ p{
 }
 .SiteMap{
   margin: 10px;
-  width: 70%;
-  height: auto;
+  width: auto;
+  height: 40vh;
   border-radius: 10px;
 }
 .center {
