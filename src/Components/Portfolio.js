@@ -16,6 +16,10 @@ export default function Portfolio() {
             About: "The front-end uses React.js,axios,material ui.The back-end uses API Gateway to call a python based lambda function that uses Dynamo DB and S3 to generate and edit the qr design",
             href: "https://TheQrGallery.com",
             siteMap: qrGalleryMapMap
+          },{
+            ProjectName: "Trip Insurance - coding challange",
+            About: "This was a coding prompt that asked me to design a form and an api, the post request uses an authentication token to access lambda through API Gateway",
+            href: "https://d21haklx9d94f7.cloudfront.net/",
           },
 
       ];
