@@ -1,5 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './Components/Header'
+import RouteComponent from './Components/RouteComponent'
+
 import {
   Router,
   Routes,
@@ -8,15 +11,10 @@ import {
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Routes>
-          <Route path="/" element>
-          
-          </Route>
-        </Routes>
-      </Router>
-    </div>
+<div>
+  <RouteComponent/>
+</div>
+
   );
 }
 
