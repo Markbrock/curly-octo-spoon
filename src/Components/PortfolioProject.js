@@ -7,17 +7,17 @@ export default function PortfolioProject(props) {
 
 <Card className="ProjectCard" >
     <CardContent className="ProjectCard">
-    <h1>{props.ProjectName}</h1>
+    <h1><a href={props.href}>{props.ProjectName}</a></h1>
     <p>{props.About}</p>
     <div className='center'><a href={props.href}><h2>{props.href}</h2></a></div>
     
     </CardContent>
 </Card>
 
-<div>
+<div className='center'>
     <img className='SiteMap' alt='' src={props.siteMap} 
-    width="100%"
-    height="300px"/>
+    width="80%"
+    height="auto"/>
     </div>
 
       
