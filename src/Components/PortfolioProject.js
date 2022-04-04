@@ -9,6 +9,7 @@ export default function PortfolioProject(props) {
     
     <h1><a href={props.href}>{props.ProjectName}</a></h1>
     <p>{props.About}</p>
+    <h3><a href={props.Github}>Github</a></h3>
     
     
 </Grid>
