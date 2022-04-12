@@ -9,7 +9,7 @@ export default function Portfolio() {
           {
             ProjectName: "Bug Tracker",
             About: "This is a Bug Tracker deployed on aws using cloudformation and cognito for authentication",
-            href: "http://d2ott0l3gydjik.cloudfront.net/",
+            href: "https://d2ott0l3gydjik.cloudfront.net/",
             siteMap: BugtrackerSiteMap,
             Github: "https://github.com/Markbrock/BugTracker"
           },
